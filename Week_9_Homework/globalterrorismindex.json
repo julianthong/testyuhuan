@@ -21,7 +21,7 @@
     ],
     "layer": [{
             "data": {
-                "url": "https://raw.githubusercontent.com/chewyuhan/FIT3179-Asm2/blob/main/Week%209%20Homework/ne_110m_admin_0_countries.topojson",
+                "url": "https://raw.githubusercontent.com/chewyuhan/FIT3179-Asm2/main/Week_9_Homework/ne_110m_admin_0_countries.topojson",
                 "format": { "type": "topojson", "feature": "ne_110m_admin_0_countries" }
             },
             "transform": [{
@@ -38,14 +38,14 @@
         },
         {
             "data": {
-                "url": "https://raw.githubusercontent.com/chewyuhan/FIT3179-Asm2/blob/main/Week%209%20Homework/Global%20Terrorism%20Index%202023.csv",
+                "url": "https://raw.githubusercontent.com/chewyuhan/FIT3179-Asm2/main/Week_9_Homework/Global%20Terrorism%20Index%202023.csv",
                 "format":{"type": "csv"}
             },
             "transform": [{
                     "lookup": "Country",
                     "from": {
                         "data": {
-                            "url": "https://raw.githubusercontent.com/chewyuhan/FIT3179-Asm2/blob/main/Week%209%20Homework/ne_110m_admin_0_countries.topojson",
+                            "url": "https://raw.githubusercontent.com/chewyuhan/FIT3179-Asm2/main/Week_9_Homework/ne_110m_admin_0_countries.topojson",
                             "format": {
                                 "type": "topojson",
                                 "feature": "ne_110m_admin_0_countries"
