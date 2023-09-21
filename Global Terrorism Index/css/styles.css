@@ -1,0 +1,7 @@
+#choropleth_map {
+	top: 0;
+	left: 0;
+	position: absolute;
+	height: max-content;
+	width: max-content;
+}
